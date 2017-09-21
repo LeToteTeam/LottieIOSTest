@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B7C844D1F74334F004BC904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C844C1F74334F004BC904 /* AppDelegate.swift */; };
-		7B7C844F1F74334F004BC904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C844E1F74334F004BC904 /* ViewController.swift */; };
-		7B7C84521F74334F004BC904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7C84501F74334F004BC904 /* Main.storyboard */; };
+		7B7C844F1F74334F004BC904 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C844E1F74334F004BC904 /* HomeViewController.swift */; };
 		7B7C84541F74334F004BC904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7C84531F74334F004BC904 /* Assets.xcassets */; };
 		7B7C84571F74334F004BC904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7C84551F74334F004BC904 /* LaunchScreen.storyboard */; };
 		7B7C84621F74334F004BC904 /* TestLottieAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C84611F74334F004BC904 /* TestLottieAnimationsTests.swift */; };
@@ -28,8 +27,7 @@
 /* Begin PBXFileReference section */
 		7B7C84491F74334F004BC904 /* TestLottieAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLottieAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7C844C1F74334F004BC904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B7C844E1F74334F004BC904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B7C84511F74334F004BC904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B7C844E1F74334F004BC904 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7B7C84531F74334F004BC904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7C84561F74334F004BC904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7C84581F74334F004BC904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,8 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				7B7C844C1F74334F004BC904 /* AppDelegate.swift */,
-				7B7C844E1F74334F004BC904 /* ViewController.swift */,
-				7B7C84501F74334F004BC904 /* Main.storyboard */,
+				7B7C844E1F74334F004BC904 /* HomeViewController.swift */,
 				7B7C84531F74334F004BC904 /* Assets.xcassets */,
 				7B7C84551F74334F004BC904 /* LaunchScreen.storyboard */,
 				7B7C84581F74334F004BC904 /* Info.plist */,
@@ -183,7 +180,6 @@
 			files = (
 				7B7C84571F74334F004BC904 /* LaunchScreen.storyboard in Resources */,
 				7B7C84541F74334F004BC904 /* Assets.xcassets in Resources */,
-				7B7C84521F74334F004BC904 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7C844F1F74334F004BC904 /* ViewController.swift in Sources */,
+				7B7C844F1F74334F004BC904 /* HomeViewController.swift in Sources */,
 				7B7C844D1F74334F004BC904 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7B7C84501F74334F004BC904 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B7C84511F74334F004BC904 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B7C84551F74334F004BC904 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +333,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLFE79MN5B;
 				INFOPLIST_FILE = TestLottieAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LeTote.TestLottieAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLFE79MN5B;
 				INFOPLIST_FILE = TestLottieAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LeTote.TestLottieAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
